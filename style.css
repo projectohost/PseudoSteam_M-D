@@ -1,0 +1,141 @@
+/* Загальні налаштування */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #181818;
+    color: white;
+}
+
+/* Шапка */
+header {
+    background: #222;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 4px solid #55a630;
+}
+
+header h1 {
+    margin: 0 0 20px;
+    font-size: 36px;
+    color: #66bb45;
+}
+
+/* Меню */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #55a630;
+    transform: translateY(-2px);
+}
+
+/* Основна частина */
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* Привітальний блок */
+.welcome {
+    text-align: center;
+    background: #242424;
+    padding: 50px 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    border: 1px solid #3d3d3d;
+}
+
+.welcome h2 {
+    font-size: 30px;
+    color: #66bb45;
+}
+
+.welcome p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Кнопка */
+button {
+    background: #55a630;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #3f7f25;
+    transform: scale(1.05);
+}
+
+/* Розділи */
+.categories {
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+/* Картки */
+.category {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    min-width: 200px;
+    margin: 10px;
+    padding: 25px 15px;
+    background: #242424;
+    border: 1px solid #3d3d3d;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.category:hover {
+    transform: translateY(-7px);
+    border-color: #55a630;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.category h3 {
+    color: #66bb45;
+    font-size: 20px;
+}
+
+.category p {
+    color: #ccc;
+    line-height: 1.5;
+}
+
+/* Підвал */
+footer {
+    background: #222;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    color: #aaa;
+}
