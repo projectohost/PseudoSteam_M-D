@@ -130,3 +130,10 @@ document.addEventListener("DOMContentLoaded", function () {
     updateButtons();
     loadLibrary();
 });
+function confirmWarThunder(button) {
+    let answer = confirm("Ти точно хочеш додати War Thunder до бібліотеки?\n\nЦе погана гра. Ти ще можеш передумати 😈");
+
+    if (answer) {
+        addToLibrary(button);
+    }
+}
