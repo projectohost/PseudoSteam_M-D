@@ -14,8 +14,9 @@
         <h1>PseudoSteam</h1>
 
         <nav>
-            <a href="index.html">Крамниця</a>
-            <a href="library.html">Бібліотека</a>
+            <a href="index.html">Головна</a>
+            <a href="catalog.html">Крамниця</a>
+            <a href="library.html" class="active" aria-current="page">Бібліотека <span class="nav-count" data-library-count hidden>0</span></a>
         </nav>
     </header>
 
@@ -30,7 +31,7 @@
 
                 <p>У твоїй бібліотеці поки що немає ігор.</p>
 
-                <a href="index.html" class="add-game-button">
+                <a href="catalog.html" class="add-game-button">
                     Додати гру
                 </a>
 
@@ -39,6 +40,10 @@
         </section>
 
     </main>
+
+    <footer>
+        <p><strong>PseudoSteam</strong> — навчальний проєкт. Назви ігор та зображення належать їхнім власникам.</p>
+    </footer>
 
     <script src="script.js"></script>
 
